@@ -1,7 +1,7 @@
 Coursera: Getting And Cleaning Data  
 =========================
 *Author: Sudhanshu Malik*  
-*Description: Coursera project for Johns Hopkins' Getting and Cleaning Data course.*
+*Description: Coursera project for Johns Hopkins' Getting and Cleaning Data course*
 
 Overview  
 ---------
@@ -24,11 +24,11 @@ The following files are included:
 Project Summary
 ---------------
 The aim of the project is to create one R script called run_analysis.R that does the following:  
-1. Merges the training and the test sets to create one data set   
-2. Extracts only the measurements on the mean and standard deviation for each measurement  
-3. Uses descriptive activity names to name the activities in the data set   
-4. Appropriately labels the data set with descriptive activity names  
-5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject  
+1. Merges the training and the test sets to create one data set.   
+2. Extracts only the measurements on the mean and standard deviation for each measurement.  
+3. Uses descriptive activity names to name the activities in the data set.   
+4. Appropriately labels the data set with descriptive activity names.  
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
 
 Steps Involved
 --------
@@ -59,7 +59,7 @@ Steps Involved
 - Variable names are attached using the features variable(feats$V2).  
 
 ###Step 5: Attach variables for activity and subject data to measurement data:  
-- Activity and subject data are given descriptive variable names  
+- Activity and subject data are given descriptive variable names.  
 - Activity and subject columns are added to the measurement data to create one unified data frame(data).  
 - Activity, subject, and feats data frames are removed from environment leaving only unified data frame.  
 - Numerical identifiers are replace with descriptive activity names in activity column.  
