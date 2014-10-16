@@ -1,4 +1,4 @@
-Coursera: Getting And Cleaning Data Project  
+Coursera: Getting And Cleaning Data  
 =========================
 *Author: Sudhanshu Malik*  
 *Description: Coursera project for Johns Hopkins' Getting and Cleaning Data course.*
@@ -6,7 +6,7 @@ Coursera: Getting And Cleaning Data Project
 Overview  
 ---------
 **Human Activity Recognition Using Smartphones**  
-One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data used in this project is the data collected from the accelerometers of the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data used in this project is the data collected from the accelerometers of the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:  
 <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
 
 Here is the data for the project:
@@ -34,14 +34,14 @@ Steps Involved
 --------
 ###Step 1: Read these files from UCI HAR dataset directory :
 **From the test directory:**  
-1. X_test.tx (measurement data)  
-2. y_test.txt (activity data)  
-3. subject_test.txt (subject data)  
+- X_test.tx (measurement data)  
+- y_test.txt (activity data)  
+- subject_test.txt (subject data)  
 
 **From the train directory:**  
-1. X_train.txt (measurement data)  
-2. y_train.txt (activity data)  
-3. subject_train.txt (subject data)  
+- X_train.txt (measurement data)  
+- y_train.txt (activity data)  
+- subject_train.txt (subject data)  
 
 ###Step 2: Combining data:   
 - Data from X-train is added to X-test to form data frame named "data".  
